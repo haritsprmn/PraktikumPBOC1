@@ -11,8 +11,8 @@ public class MGaris {
         System.out.println("Panjang: " + G0.getPanjang());
         System.out.println("Gradien: " + G0.getGradien());
         System.out.println("Titik Tengah: (" +
-                G0.getTitikTengah().absis + ", " +
-                G0.getTitikTengah().ordinat + ")");
+                G0.getTitikTengah().getAbsis() + ", " +
+                G0.getTitikTengah().getOrdinat() + ")");
         System.out.println("Persamaan: " + G0.printPersamaan());
         System.out.println();
 
@@ -28,8 +28,8 @@ public class MGaris {
         System.out.println("Panjang: " + G1.getPanjang());
         System.out.println("Gradien: " + G1.getGradien());
         System.out.println("Titik Tengah: (" +
-                G1.getTitikTengah().absis + ", " +
-                G1.getTitikTengah().ordinat + ")");
+                G1.getTitikTengah().getAbsis() + ", " +
+                G1.getTitikTengah().getOrdinat() + ")");
         System.out.println("Persamaan: " + G1.printPersamaan());
         System.out.println();
 

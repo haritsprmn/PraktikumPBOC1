@@ -5,9 +5,9 @@
 
 public class Garis {
     /****************** ATRIBUT *********************/
-    Titik Ts;
-    Titik Tf;
-    static int counterGaris = 0;
+    private Titik Ts;
+    private Titik Tf;
+    private static int counterGaris = 0;
 
     /****************** METHOD ****************************/
     // Konstruktor untuk membuat garis
@@ -46,52 +46,53 @@ public class Garis {
     }
 
     double getPanjang() {
-        double A = Ts.absis - Tf.absis;
-        double O = Ts.ordinat - Tf.ordinat;
+        double A = Ts.getAbsis() - Tf.getAbsis();
+        double O = Ts.getOrdinat() - Tf.getOrdinat();
         return Math.sqrt(A * A + O * O);
     }
 
     double getGradien() {
-        double dx = Tf.absis - Ts.absis;
-        double dy = Tf.ordinat - Ts.ordinat;
+        double dx = Tf.getAbsis() - Ts.getAbsis();
+        double dy = Tf.getOrdinat() - Ts.getOrdinat();
         if (dx == 0)
             throw new ArithmeticException("Gradien tidak terdefinisi (garis vertikal)");
         return dy / dx;
     }
 
     Titik getTitikTengah() {
-        double A = (Ts.absis + Tf.absis) / 2;
-        double O = (Ts.ordinat + Tf.ordinat) / 2;
+        double A = (Ts.getAbsis() + Tf.getAbsis()) / 2;
+        double O = (Ts.getOrdinat() + Tf.getOrdinat()) / 2;
         return new Titik(A, O);
     }
 
     boolean isSejajar(Garis G1) {
-        if (Ts.absis == Tf.absis && G1.Ts.absis == G1.Tf.absis)
+        if (Ts.getAbsis() == Tf.getAbsis() && G1.Ts.getAbsis() == G1.Tf.getAbsis())
             return true;
         return Math.abs(this.getGradien() - G1.getGradien()) < 0.000001;
     }
 
     boolean isTegakLurus(Garis G1) {
-        if (Ts.absis == Tf.absis && G1.Ts.ordinat == G1.Tf.ordinat)
+        if (Ts.getAbsis() == Tf.getAbsis() && G1.Ts.getOrdinat() == G1.Tf.getOrdinat())
             return true;
 
-        if (Ts.ordinat == Tf.ordinat && G1.Ts.absis == G1.Tf.absis)
+        if (Ts.getOrdinat() == Tf.getOrdinat() && G1.Ts.getAbsis() == G1.Tf.getAbsis())
             return true;
 
         return Math.abs(this.getGradien() * G1.getGradien() + 1) < 0.000001;
     }
 
     void printGaris() {
-        System.out.println("Titik awal (" + Ts.absis + "," + Ts.ordinat + ") " + "Titik akhir (" + Tf.absis + ","
-                + Tf.ordinat + ")");
+        System.out.println(
+                "Titik awal (" + Ts.getAbsis() + "," + Ts.getOrdinat() + ") " + "Titik akhir (" + Tf.getAbsis() + ","
+                        + Tf.getOrdinat() + ")");
     }
 
     String printPersamaan() {
-        if (Ts.absis == Tf.absis)
-            return "x = " + Ts.absis;
+        if (Ts.getAbsis() == Tf.getAbsis())
+            return "x = " + Ts.getAbsis();
 
         double m = getGradien();
-        double c = Ts.ordinat - m * Ts.absis;
+        double c = Ts.getOrdinat() - m * Ts.getAbsis();
 
         if (c > 0) {
             return "y = " + m + "x + " + c;
