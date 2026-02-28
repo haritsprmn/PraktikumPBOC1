@@ -49,6 +49,44 @@ public class Titik {
         ordinat = ordinat + y;
     }
 
+    int getKuadran() {
+        if (absis > 0 && ordinat > 0)
+            return 1;
+        if (absis < 0 && ordinat > 0)
+            return 2;
+        if (absis < 0 && ordinat < 0)
+            return 3;
+        if (absis > 0 && ordinat < 0)
+            return 4;
+        return 0;
+    }
+
+    double getJarakPusat() {
+        return Math.sqrt(absis * absis + ordinat * ordinat);
+    }
+
+    double getJarak(Titik T) {
+        double A = absis - T.absis;
+        double O = ordinat - T.ordinat;
+        return Math.sqrt(A * A + O * O);
+    }
+
+    void refleksiX() {
+        ordinat = -ordinat;
+    }
+
+    void refleksiY() {
+        absis = -absis;
+    }
+
+    String getRefleksiX() {
+        return "(" + absis + ", " + -ordinat + ")";
+    }
+
+    String getRefleksiY() {
+        return "(" + -absis + ", " + ordinat + ")";
+    }
+
     void printTitik() {
         System.out.println("Titik (" + absis + "," + ordinat + ")");
     }
