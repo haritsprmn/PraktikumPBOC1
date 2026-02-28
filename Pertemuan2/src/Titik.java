@@ -21,6 +21,7 @@ public class Titik {
     Titik(double x, double y) {
         absis = x;
         ordinat = y;
+        counterTitik++;
     }
 
     static int getCounterTitik() {
@@ -79,12 +80,12 @@ public class Titik {
         absis = -absis;
     }
 
-    String getRefleksiX() {
-        return "(" + absis + ", " + -ordinat + ")";
+    Titik getRefleksiX() {
+        return new Titik(absis, -ordinat);
     }
 
-    String getRefleksiY() {
-        return "(" + -absis + ", " + ordinat + ")";
+    Titik getRefleksiY() {
+        return new Titik(-absis, ordinat);
     }
 
     void printTitik() {
