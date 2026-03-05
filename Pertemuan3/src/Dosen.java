@@ -1,3 +1,8 @@
+// Nama File    : Dosen.java
+// Deskripsi    : Berisi atribut dan method dalam class Dosen
+// Pembuat      : Harits Permana
+// Tanggal      : 28/02/2026
+
 public class Dosen {
     // Attribute
     private String nip;

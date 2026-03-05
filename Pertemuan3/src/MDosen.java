@@ -1,3 +1,8 @@
+// Nama File    : MDosen.java
+// Deskripsi    : Berisi implementasi method
+// Pembuat      : Harits Permana / 24060124140131
+// Tanggal      : 5/03/2026
+
 public class MDosen {
     public static void main(String[] args) {
 
