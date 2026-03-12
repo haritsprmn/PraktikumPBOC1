@@ -1,7 +1,7 @@
 // Nama File    : Dosen.java
 // Deskripsi    : Berisi atribut dan method dalam class Dosen
-// Pembuat      : Harits Permana
-// Tanggal      : 28/02/2026
+// Pembuat      : Harits Permana / 24060124140131
+// Tanggal      : 5/03/2026
 
 public class Dosen {
     // Attribute
