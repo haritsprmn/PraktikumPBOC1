@@ -1,3 +1,8 @@
+// Nama File    : BangunDatar.java
+// Deskripsi    : Berisi atribut dan method dalam class bangun datar yang siap di turunkan
+// Pembuat      : Harits Permana
+// Tanggal      : 12/02/2026
+
 public class BangunDatar {
     // Atribut
     private int jmlhSisi;

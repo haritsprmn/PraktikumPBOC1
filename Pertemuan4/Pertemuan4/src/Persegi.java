@@ -1,3 +1,8 @@
+// Nama File    : Persegi.java
+// Deskripsi    : Berisi atribut dan method dalam class Persegi
+// Pembuat      : Harits Permana
+// Tanggal      : 12/02/2026
+
 public class Persegi extends BangunDatar {
     // Atribut
     private double sisi;
