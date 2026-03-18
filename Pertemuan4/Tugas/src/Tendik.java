@@ -23,7 +23,7 @@ public class Tendik extends Pegawai {
     }
 
     // Selector
-    private double getTunjangan() {
+    public double getTunjangan() {
         int Tahun = this.getTMT().getSelisihNow("Tahun");
         double persen = Tahun * 0.01;
         return this.getGajiPokok() * persen;
@@ -48,13 +48,19 @@ public class Tendik extends Pegawai {
         return Bidang;
     }
 
+    // Mutator
+    public void setBidang(String Bidang) {
+        this.Bidang = Bidang;
+    }
+
     // Menampilkan
     public void printInfo() {
         int Tahun = this.getTMT().getSelisihNow("Tahun");
         System.out.println("\n\n");
         System.out.println("================= Info Tendik ==================");
         super.printInfo();
-        System.out.println("Tunjangan : 1% x " + Tahun + " X " + Rupiah(this.getGajiPokok()) + " = " + Rupiah(this.getTunjangan()));
+        System.out.println("Tunjangan : 1% x " + Tahun + " X " + Rupiah(this.getGajiPokok()) + " = "
+                + Rupiah(this.getTunjangan()));
         System.out.println("Bidang : " + this.getBidang());
         System.out.println("Tanggal Pensiun : " + this.getTglPensiun().printTanggal());
         System.out.println("================= END Info Tendik ==================");

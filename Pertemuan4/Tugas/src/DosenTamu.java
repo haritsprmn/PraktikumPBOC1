@@ -18,7 +18,8 @@ public class DosenTamu extends Dosen {
         countDosenTamu++;
     }
 
-    public DosenTamu(String NIP, String Nama, Tanggal TglLahir, Tanggal TMT, double GajiPokok, String Fakultas, String NIDK, Tanggal EndKontrak) {
+    public DosenTamu(String NIP, String Nama, Tanggal TglLahir, Tanggal TMT, double GajiPokok, String Fakultas,
+            String NIDK, Tanggal EndKontrak) {
         super(NIP, Nama, TglLahir, TMT, GajiPokok, Fakultas);
         this.NIDK = NIDK;
         this.EndKontrak = EndKontrak;
@@ -34,7 +35,7 @@ public class DosenTamu extends Dosen {
         return EndKontrak;
     }
 
-    private double getTunjangan() {
+    public double getTunjangan() {
         int Tahun = this.getTMT().getSelisihNow("Tahun");
         double persen = Tahun * 0.02;
         return this.getGajiPokok() * persen;
@@ -42,7 +43,7 @@ public class DosenTamu extends Dosen {
 
     public int getSisaKontrakBulan() {
         int hasil = EndKontrak.getSelisihNow("Bulan");
-        if(hasil <= 0){
+        if (hasil <= 0) {
             return 0;
         }
         return hasil;
