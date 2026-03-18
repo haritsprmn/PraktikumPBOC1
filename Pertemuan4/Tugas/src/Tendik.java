@@ -1,3 +1,8 @@
+// Nama File    : Tendik.java
+// Deskripsi    : Berisi atribut dan method dalam class Tendik yang diturunkan oleh super
+// Pembuat      : Harits Permana
+// Tanggal      : 16/03/2026
+
 public class Tendik extends Pegawai {
     // Atribut
     private int BUP;

@@ -1,3 +1,8 @@
+// Nama File    : DosenTetap.java
+// Deskripsi    : Berisi atribut dan method dalam class DosenTetap yang diturunkan oleh super
+// Pembuat      : Harits Permana
+// Tanggal      : 16/03/2026
+
 public class DosenTetap extends Dosen {
     // Attribute
     private String NIDN;

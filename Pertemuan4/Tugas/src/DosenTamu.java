@@ -1,3 +1,8 @@
+// Nama File    : DosenTamu.java
+// Deskripsi    : Berisi atribut dan method dalam class DosenTamu yang diturunkan oleh super
+// Pembuat      : Harits Permana
+// Tanggal      : 16/03/2026
+
 public class DosenTamu extends Dosen {
     // Atribute
     private String NIDK;

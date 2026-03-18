@@ -1,3 +1,8 @@
+// Nama File    : MTest.java
+// Deskripsi    : Mengimplementasikan semua method yang pernah di buat
+// Pembuat      : Harits Permana
+// Tanggal      : 16/03/2026
+
 public class MTest {
     public static void main(String[] args) {
 
