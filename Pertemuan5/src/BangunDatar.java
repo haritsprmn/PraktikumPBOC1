@@ -1,7 +1,7 @@
 // Nama File    : BangunDatar.java
 // Deskripsi    : Berisi atribut dan method dalam class bangun datar yang siap di turunkan
 // Pembuat      : Harits Permana
-// Tanggal      : 27/03/2026
+// Tanggal      : 12/02/2026
 
 public abstract class BangunDatar {
     // Atribut
@@ -37,6 +37,10 @@ public abstract class BangunDatar {
         return border;
     }
 
+    public abstract double getLuas();
+
+    public abstract double getKeliling();
+
     // Mutator
     public void setJmlhSisi(int jmlSisi) {
         this.jmlhSisi = jmlSisi;
@@ -57,14 +61,11 @@ public abstract class BangunDatar {
         System.out.println("Border: " + border);
     }
 
-    public abstract double getLuas();
-    public abstract double getKeliling();
-
-    public boolean isEqualLuas(BangunDatar X){
-        return this.getLuas() == X.getLuas();
-    }
-
     public static void printCountBangunDatar() {
         System.out.println("Jumlah bangun datar: " + countBangunDatar);
+    }
+
+    public boolean isEqualLuas(BangunDatar X) {
+        return this.getLuas() == X.getLuas();
     }
 }
