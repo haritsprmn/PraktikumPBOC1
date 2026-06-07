@@ -5,7 +5,10 @@
 Proyek 1 menampilkan form sederhana untuk menambahkan item ke dalam `JList`.
 
 <p align="center">
-  <img src="docs/images/proyek1.png" alt="Tampilan Proyek 1" width="500">
+  <p>Before</p>
+  <img src="images/P1_before.png" alt="Tampilan Proyek 1" width="500">
+  <p>After</p>
+  <img src="images/P1_after.png" alt="Tampilan Proyek 1" width="500">
 </p>
 
 ### Proyek 2
@@ -31,22 +34,6 @@ Proyek 4 mengimplementasikan penyimpanan data menggunakan `List`, `Set`, dan `Ma
 <p align="center">
   <img src="docs/images/proyek4.png" alt="Tampilan Proyek 4" width="500">
 </p>
-
-## Cara Menambahkan Gambar ke README
-
-Simpan gambar hasil program ke folder `docs/images/`, lalu tampilkan dengan format Markdown atau HTML berikut:
-
-```markdown
-![Tampilan Proyek](docs/images/nama-gambar.png)
-```
-
-atau:
-
-```html
-<img src="docs/images/nama-gambar.png" alt="Tampilan Proyek" width="500">
-```
-
-Pastikan nama file dan path gambar sudah sesuai agar gambar muncul saat README dibuka di GitHub atau editor Markdown.
 
 ## Fitur Singkat
 
