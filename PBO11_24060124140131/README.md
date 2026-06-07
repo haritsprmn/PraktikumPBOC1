@@ -35,10 +35,6 @@ Proyek 2 menambahkan fitur pengelolaan data seperti **Insert Data**, **Add**, **
         <img src="images/P2_afterInsert.png" alt="Tampilan Proyek 2 Sesudah" width="400">
       </td>
     </tr>
-  </table>
-</p>
-<p align="center">
-  <table>
     <tr>
       <td align="center">
         <strong>Before Update</strong><br>
