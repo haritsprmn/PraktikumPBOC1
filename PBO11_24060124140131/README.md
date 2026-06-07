@@ -4,12 +4,23 @@
 
 Proyek 1 menampilkan form sederhana untuk menambahkan item ke dalam `JList`.
 
+```html
 <p align="center">
-  <p>Before</p>
-  <img src="images/P1_before.png" alt="Tampilan Proyek 1" width="500">
-  <p>After</p>
-  <img src="images/P1_after.png" alt="Tampilan Proyek 1" width="500">
+  <table>
+    <tr>
+      <td align="center">
+        <strong>Before</strong><br>
+        <img src="images/P1_before.png" alt="Tampilan Proyek 1 Sebelum" width="400">
+      </td>
+      <td align="center">
+        <strong>After</strong><br>
+        <img src="images/P1_after.png" alt="Tampilan Proyek 1 Sesudah" width="400">
+      </td>
+    </tr>
+  </table>
 </p>
+```
+
 
 ### Proyek 2
 
