@@ -47,11 +47,11 @@
     <tr>
       <td align="center">
         <strong>Sebelum Reset Indeks</strong><br>
-        <img src="images/sebelumResetIndeks.png" alt="Hasil Praktikum 11 B" width="400">
+        <img src="images/sebelumResetIndekss.png" alt="Hasil Praktikum 11 B" width="400">
       </td>
       <td align="center">
         <strong>Sesudah Reset Indeks</strong><br>
-        <img src="images/sesudahResetIndeks.png" alt="Hasil Praktikum 11 B" width="400">
+        <img src="images/sesudahResetIndekss.png" alt="Hasil Praktikum 11 B" width="400">
       </td>
     </tr>
   </table>
