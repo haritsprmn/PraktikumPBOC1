@@ -4,7 +4,6 @@
 
 Proyek 1 menampilkan form sederhana untuk menambahkan item ke dalam `JList`.
 
-```html
 <p align="center">
   <table>
     <tr>
@@ -19,8 +18,6 @@ Proyek 1 menampilkan form sederhana untuk menambahkan item ke dalam `JList`.
     </tr>
   </table>
 </p>
-```
-
 
 ### Proyek 2
 
