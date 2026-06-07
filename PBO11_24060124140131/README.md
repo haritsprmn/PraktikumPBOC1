@@ -24,7 +24,32 @@ Proyek 1 menampilkan form sederhana untuk menambahkan item ke dalam `JList`.
 Proyek 2 menambahkan fitur pengelolaan data seperti **Insert Data**, **Add**, **Update**, **Delete**, dan **Clear All**.
 
 <p align="center">
-  <img src="docs/images/proyek2.png" alt="Tampilan Proyek 2" width="500">
+  <table>
+    <tr>
+      <td align="center">
+        <strong>Before Insert</strong><br>
+        <img src="images/P2_beforeInsert.png" alt="Tampilan Proyek 2 Sebelum" width="400">
+      </td>
+      <td align="center">
+        <strong>After Insert</strong><br>
+        <img src="images/P2_afterInsert.png" alt="Tampilan Proyek 2 Sesudah" width="400">
+      </td>
+    </tr>
+  </table>
+</p>
+<p align="center">
+  <table>
+    <tr>
+      <td align="center">
+        <strong>Before Update</strong><br>
+        <img src="images/P2_beforeUpdate.png" alt="Tampilan Proyek 2 Sebelum" width="400">
+      </td>
+      <td align="center">
+        <strong>After Update</strong><br>
+        <img src="images/P2_afterUpdate.png" alt="Tampilan Proyek 2 Sesudah" width="400">
+      </td>
+    </tr>
+  </table>
 </p>
 
 ### Proyek 3
