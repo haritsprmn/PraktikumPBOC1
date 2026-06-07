@@ -12,7 +12,7 @@ package PresistentObject;
  */
 public class MainDAO {
     public static void main(String args[]){
-        Person person = new Person("Harits");
+        Person person = new Person("BOY");
         DAOManager m = new DAOManager();
         m.setPersonDAO(new MySQLPersonDAO());
         try {
