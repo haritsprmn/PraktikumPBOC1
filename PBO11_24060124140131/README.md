@@ -48,7 +48,7 @@ Proyek 2 menambahkan fitur pengelolaan data seperti **Insert Data**, **Add**, **
     <tr>
       <td align="center">
         <strong>Before Delete</strong><br>
-        <img src="images/P2_beforeDelete.png" alt="Tampilan Proyek 2 Sebelum" width="400">
+        <img src="images/P2_BeforeDelete.png" alt="Tampilan Proyek 2 Sebelum" width="400">
       </td>
       <td align="center">
         <strong>After Delete</strong><br>
