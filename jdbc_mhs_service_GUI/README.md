@@ -1,6 +1,6 @@
-## Hasil Tampilan Proyek
+## Hasil Tampilan Praktikum
 
-### Proyek 1
+### Praktikum 11 B
 
 <p align="center">
   <table>
