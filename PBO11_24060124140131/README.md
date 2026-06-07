@@ -92,7 +92,18 @@ Proyek 3 menggunakan `ArrayList` untuk menyimpan data dari `JList` dan menampilk
 Proyek 4 mengimplementasikan penyimpanan data menggunakan `List`, `Set`, dan `Map`.
 
 <p align="center">
-  <img src="docs/images/proyek4.png" alt="Tampilan Proyek 4" width="500">
+  <table>
+    <tr>
+      <td align="center">
+        <strong>Before</strong><br>
+        <img src="images/P4_before.png" alt="Tampilan Proyek 4 Sebelum" width="400">
+      </td>
+      <td align="center">
+        <strong>After</strong><br>
+        <img src="images/P4_after.png" alt="Tampilan Proyek 4 Sesudah" width="400">
+      </td>
+    </tr>
+  </table>
 </p>
 
 ## Fitur Singkat
