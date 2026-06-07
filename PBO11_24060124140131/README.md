@@ -77,11 +77,11 @@ Proyek 3 menggunakan `ArrayList` untuk menyimpan data dari `JList` dan menampilk
     <tr>
       <td align="center">
         <strong>Before Save</strong><br>
-        <img src="images/P3_beforeSave.png" alt="Tampilan Proyek 1 Sebelum" width="400">
+        <img src="images/P3_beforeSave.png" alt="Tampilan Proyek 3 Sebelum" width="400">
       </td>
       <td align="center">
         <strong>After Save</strong><br>
-        <img src="images/P1_afterSave.png" alt="Tampilan Proyek 1 Sesudah" width="400">
+        <img src="images/P3_afterSave.png" alt="Tampilan Proyek 3 Sesudah" width="400">
       </td>
     </tr>
   </table>
